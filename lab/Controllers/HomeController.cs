@@ -19,6 +19,11 @@ namespace lab.Controllers
             //local branch
         }
 
+        public string getData()
+        {
+            return "d";
+        }
+
         public IActionResult Index()
         {
             return View();
